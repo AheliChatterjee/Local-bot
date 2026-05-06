@@ -20,3 +20,4 @@ Thumbs.db
 
 # Chat history
 chat_history.json
+.gitignore

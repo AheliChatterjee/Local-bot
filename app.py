@@ -93,9 +93,8 @@ if (
     and st.session_state.messages[-1]["role"] == "user"
 ):
 
-    # display latest user message
-    with st.chat_message("user"):
-        st.markdown(st.session_state.messages[-1]["content"])
+    
+    
 
     # assistant response
     with st.chat_message("assistant"):
